@@ -1,0 +1,31 @@
+% !Mode:: "TeX:UTF-8"
+
+%%  可通过增加或减少 setup/format.tex中的
+%%  第274行 \setlength{\@title@width}{8cm}中 8cm 这个参数来 控制封面中下划线的长度。
+
+\cheading{}      % 设置正文的页眉，需要填上对应的毕业年份
+\cTitle{}    % 文章标题
+\ctitle{}    % 封面用论文标题，自己可手动断行
+\caffil{} % 学院名称
+\csubject{}   % 专业名称
+\cauthor{}            % 学生姓名
+\cstuid{}        % 学生学号
+\csupervisor{}        % 导师姓名
+
+\cdate{\the\year~年~\the\month~月~\the\day~日}
+
+\cabstract{
+一些摘要
+}
+
+\ckeywords{关键字1；关键字2}
+
+\eabstract{
+Some abstract
+}
+
+\ekeywords{keyword1; keyword2}
+
+\makecover
+
+\clearpage
